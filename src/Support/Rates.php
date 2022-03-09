@@ -20,7 +20,8 @@ final class Rates
 
     public function getBaseCurrency(): string
     {
-        return $this->baseCurrency;
+        return 'USD';
+        //return $this->baseCurrency;
     }
 
     /**
